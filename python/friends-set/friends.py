@@ -6,4 +6,4 @@ def friends(names: list) -> list:
         if len(name) == 4:
             friends.append(name)
     return friends
-    # Alternative return [name for name in names if len(names) == 4]
+    # Alternative return [name for name in names if len(name) == 4]
