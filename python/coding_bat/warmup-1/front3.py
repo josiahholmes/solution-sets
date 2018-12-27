@@ -6,7 +6,8 @@ def front3(str):
     front is whatever is there. Return a new 
     string which is 3 copies of the front.
     '''
-    return str[:3] * 3
+    front = len(str) if (len(str) < 3) else 3
+    return str[:front] * 3
 
 
 print(front3('Java')) # 'JavJavJav'
